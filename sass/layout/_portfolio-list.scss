@@ -29,9 +29,7 @@
     margin-top: 0;
     margin-bottom: 4px;
     color: var(--custom-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+    @include font(700, 18px, 2);
     letter-spacing: 0.06em;
   }
   &-type {
@@ -89,9 +87,7 @@
     width: 322px;
     height: 168px;
     margin: 0;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.56;
+    @include font(400, 18px, 1.56);
     letter-spacing: 0.03em;
     color: var(--primary-white-color);
   }

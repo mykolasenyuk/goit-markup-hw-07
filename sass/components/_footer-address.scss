@@ -5,9 +5,8 @@
 .page-footer__address {
   color: var(--primary-white-color);
   font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(400, 14px, 1.71);
+
   &-item {
     display: block;
     margin-top: 20px;

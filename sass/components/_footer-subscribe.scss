@@ -3,17 +3,14 @@
     margin-left: 93px;
   }
   &__subscribe-form {
-    display: flex;
-    position: relative;
+    @include centerflex(flex, relative);
   }
   &__subscribe-label {
     position: absolute;
     top: 16px;
     left: 16px;
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
+    @include font(400, 16px, 1.25);
     letter-spacing: 0.03em;
   }
   &__subscribe-input {
@@ -26,9 +23,7 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: #2f303a;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
+    @include font(400, 16px, 1.25);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -42,9 +37,7 @@
 
     min-width: 200px;
     height: 50px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.86;
+    @include font(700, 16px, 1.86);
     letter-spacing: 0.06em;
     text-align: center;
     color: var(--primary-white-color);

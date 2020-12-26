@@ -38,17 +38,14 @@
     text-align: center;
     margin: 0;
     color: var(--custom-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font(500, 16px, 1.19);
   }
   &__position {
     text-align: center;
     margin: 0;
     margin-top: 10px;
     margin-bottom: 16px;
-    font-size: 16px;
-    line-height: 1.19;
+    @include font(400, 16px, 1.19);
   }
   &__social-list {
     display: flex;

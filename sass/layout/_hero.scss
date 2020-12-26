@@ -21,9 +21,7 @@
     margin-bottom: 30px;
 
     color: var(--primary-white-color);
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    @include font(900, 44px, 1.36);
     letter-spacing: 0.06em;
     text-transform: uppercase;
   }

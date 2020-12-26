@@ -1,0 +1,9 @@
+@mixin centerflex($type, $poss) {
+  display: $type;
+  position: $poss;
+}
+@mixin font($fw, $fs, $lh) {
+  font-weight: $fw;
+  font-size: $fs;
+  line-height: $lh;
+}

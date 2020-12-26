@@ -5,7 +5,6 @@ a {
 .page {
   background-color: var(--primary-white-color);
   color: var(--custom-text-color);
-
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -30,9 +29,8 @@ a {
   outline-style: none;
 
   font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.86;
+  @include font(700, 16px, 1.86);
+
   letter-spacing: 0.06em;
   text-align: center;
   color: var(--primary-white-color);
@@ -49,9 +47,8 @@ a {
   margin-bottom: 50px;
 
   color: var(--custom-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  @include font(700, 36px, 1.16);
+
   text-align: center;
   letter-spacing: 0.03em;
 }

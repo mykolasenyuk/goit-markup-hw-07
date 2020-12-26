@@ -86,7 +86,7 @@ a {
   display: inline-block;
   color: var(--accent-color);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 26px;
   line-height: 1.19;
   padding-bottom: 25px;
@@ -212,7 +212,7 @@ a {
 .page-footer__address {
   color: var(--primary-white-color);
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -382,6 +382,7 @@ a {
 }
 
 .feature__list-text {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   margin-top: 0;
@@ -500,6 +501,7 @@ a {
   margin: 0;
   margin-top: 10px;
   margin-bottom: 16px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -580,9 +582,9 @@ a {
 }
 
 .close-btn {
+  display: flex;
   position: absolute;
   right: 0;
-  display: flex;
   justify-content: center;
   align-items: center;
   width: 30px;
@@ -631,8 +633,8 @@ a {
 }
 
 .modal__form-field {
-  position: relative;
   display: flex;
+  position: relative;
   flex-direction: column;
   margin-top: 10px;
 }
@@ -656,6 +658,7 @@ a {
   outline: none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
@@ -671,7 +674,7 @@ a {
   resize: none;
   padding: 12px 16px;
   min-height: 120px;
-  font-weight: 400px;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;

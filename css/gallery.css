@@ -86,7 +86,7 @@ a {
   display: inline-block;
   color: var(--accent-color);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 26px;
   line-height: 1.19;
   padding-bottom: 25px;
@@ -212,7 +212,7 @@ a {
 .page-footer__address {
   color: var(--primary-white-color);
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }

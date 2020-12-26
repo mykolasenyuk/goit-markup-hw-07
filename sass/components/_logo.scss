@@ -1,0 +1,17 @@
+.logo {
+  display: inline-block;
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  padding-bottom: 25px;
+  padding-top: 24px;
+
+  &-nav {
+  color: #000000;
+  }
+   &-footer {
+    color: var(--primary-white-color);
+    }
+}

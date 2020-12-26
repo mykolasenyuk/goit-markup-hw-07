@@ -1,6 +1,5 @@
 .main-nav {
-  display: flex;
-  align-items: center;
+  @include display(flex, center);
 }
 
 .site-nav__list {
@@ -13,10 +12,9 @@
 }
 
 .site-nav__link {
-  display: block;
+  @include centerflex(block, relative);
   padding-top: 32px;
   padding-bottom: 32px;
-  position: relative;
   color: var(--custom-text-color);
   @include font(500, 14px, 1.14);
   letter-spacing: 0.02em;

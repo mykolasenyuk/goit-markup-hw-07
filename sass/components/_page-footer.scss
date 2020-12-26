@@ -9,7 +9,6 @@
   }
 
   & > .container {
-    display: flex;
-    align-items: baseline;
+    @include display(flex, baseline);
   }
 }

@@ -7,3 +7,7 @@
   font-size: $fs;
   line-height: $lh;
 }
+@mixin display($type, $ai) {
+  display: $type;
+  align-items: $ai;
+}

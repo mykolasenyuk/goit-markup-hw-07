@@ -56,9 +56,8 @@
   }
 
   &__social-link {
-    display: inline-flex;
+    @include display(inline-flex, center);
     justify-content: center;
-    align-items: center;
     width: 44px;
     height: 44px;
     border-radius: 50%;

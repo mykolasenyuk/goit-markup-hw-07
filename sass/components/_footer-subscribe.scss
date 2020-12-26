@@ -30,9 +30,8 @@
   }
 
   &__btn.button {
-    display: flex;
+    @include display(flex, center);
     justify-content: center;
-    align-items: center;
     padding: 25px 10px;
 
     min-width: 200px;

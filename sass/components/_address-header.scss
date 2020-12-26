@@ -6,8 +6,7 @@
 }
 
 .address__link {
-  display: inline-flex;
-  align-items: center;
+  @include display(inline-flex, center);
   padding-top: 21px;
   padding-bottom: 21px;
   margin-left: 50px;
